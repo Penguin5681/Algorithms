@@ -1,0 +1,1 @@
+{"name":"Local: F","url":"f:\\C++\\CodeChef Starters 76\\F.cpp","tests":[{"id":1675270621688,"input":"4\n5\n-1 1 1 -1 -1\n5\n1 1 -1 -1 -1\n2\n1 1\n4\n1 -1 -1 1","output":"3\n3\n-2\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\C++\\CodeChef Starters 76\\F.cpp","group":"local","local":true}

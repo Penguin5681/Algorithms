@@ -1,0 +1,1 @@
+{"name":"Local: 3","url":"f:\\C++\\CodeChef Starters 75 (Div. 2)\\3.cpp","tests":[{"id":1674746121907,"input":"4\n100 10\n200 5\n500 10\n100 7","output":"20\n25\n60\n17"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\C++\\CodeChef Starters 75 (Div. 2)\\3.cpp","group":"local","local":true}

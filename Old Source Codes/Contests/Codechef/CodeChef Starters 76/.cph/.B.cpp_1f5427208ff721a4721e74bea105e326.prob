@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"f:\\C++\\CodeChef Starters 76\\B.cpp","tests":[{"id":1675267449401,"input":"3\n1 2 8\n4 100 1\n7 3 5","output":"ALICE\nCHARLIE\nBOB"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\C++\\CodeChef Starters 76\\B.cpp","group":"local","local":true}

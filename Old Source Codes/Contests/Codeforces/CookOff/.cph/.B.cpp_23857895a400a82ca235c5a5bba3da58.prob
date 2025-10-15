@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"f:\\C++\\CookOff\\B.cpp","tests":[{"id":1675870895463,"input":"4\n1 1 1 3\n2 3 1 5\n4 2 3 4\n2 1 4 7","output":"NO\nYES\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\C++\\CookOff\\B.cpp","group":"local","local":true}
