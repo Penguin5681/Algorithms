@@ -24,15 +24,27 @@ const ll INF = 1e9;
 const ld EPS = 1e-9;
 
 void solve() {
-    
+    long long n;
+    std::cin >> n;
+    long long final_position = (n + 1) / 2;
+
+    std::cout << final_position << std::endl;
 }
 
 int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int tc = 1;
-    // cin >> tc;
-    for (int t = 1; t <= tc; t++) {
-        solve();
+    int tc;
+    cin >> tc;
+
+    while (tc-- > 0) {
+        int n;
+        cin >> n;
+
+        int pos = n;    
+        int newPos = 0;
+        if (pos % 2 != 0) {
+
+        }
     }
 }

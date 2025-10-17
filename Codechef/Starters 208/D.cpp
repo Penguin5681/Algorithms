@@ -23,15 +23,47 @@ const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
 const ld EPS = 1e-9;
 
-void solve() {
+bool isMultiple(ll num, ll divisor) {
+    if (divisor == 0) return false;    
+    return num % divisor == 0;
+}
+
+ll getGCND(ll X, ll Y) {
+    for (int i = min(X, Y); i >= 1; i--) {
+        if (isMultiple(X, i) && isMultiple(Y, i)) {
+            return i;
+        }
+    }
     
+    return -1;
+}
+
+void solve() {
+    int n;
+    cin >> n;
+    vector<int> arr(n);
+
+    for (auto &it : arr) {
+        cin >> it;
+    }
+
+    int maxGCNDPair = -1;
+
+    for (int i = 0; i < n - 1; i++) {
+        int currGCND = getGCND(arr[i], arr[i + 1]);
+        if (currGCND != -1) {
+            maxGCNDPair = max(maxGCNDPair, currGCND);
+        }
+    }
+
+    cout << maxGCNDPair << endl;
 }
 
 int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int tc = 1;
-    // cin >> tc;
+    int tc;
+    cin >> tc;
     for (int t = 1; t <= tc; t++) {
         solve();
     }
